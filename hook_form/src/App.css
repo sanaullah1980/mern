@@ -54,3 +54,8 @@
 .output__block > input{
   width: 100%;
 }
+.error__msg{
+  font-size: small;
+  color: red;
+  font-weight: 300;
+}
