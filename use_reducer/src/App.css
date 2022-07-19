@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+
+.input__block{
+  border: 1px solid lightgray;
+  background: gainsboro;
+  padding: .8rem;
+  width: 15rem;
+  margin: .8rem 0rem;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  font-size: small;
+  color: darkslateblue;
+}
+.input__block > label{
+  width: 100%;
+}
+.input__block > input {
+  border: none;
+  height: 1.2rem;
+}
+
+.display__data{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.output__block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+  color: darkslateblue
+}
+.output__block > label{
+  margin-right: 2 rem;
+  color: darkblue;
+}
+.output__block > input{
+  width: 100%;
+}
+.error__msg{
+  font-size: small;
+  color: red;
+  font-weight: 300;
+}
